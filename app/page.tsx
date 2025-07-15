@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 // Define an interface for the formData state to provide type safety
 interface BookingFormData {
@@ -117,7 +117,7 @@ const App = () => {
       <header className="bg-white shadow-sm py-4 px-6 md:px-12 fixed w-full z-50">
         <div className="container mx-auto flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-emerald-700">
-            Serenity Stays
+            Pukoret Home Suites
           </a>
           <nav>
             <ul className="flex space-x-6">
@@ -157,7 +157,7 @@ const App = () => {
             Your Peaceful Retreat in the Heart of Kenya
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            Experience unparalleled comfort and hospitality at Serenity Stays, your home away from home.
+            Experience unparalleled comfort and hospitality at Pukoret Home Suites, your home away from home.
           </p>
           <button
             onClick={openBookingModal}
@@ -171,7 +171,7 @@ const App = () => {
       {/* About Us Section (Expanded) */}
       <section id="about" className="py-20 bg-white">
         <div className="container mx-auto px-6 md:px-12">
-          <h2 className="text-4xl font-bold text-center text-emerald-800 mb-12">About Serenity Stays</h2>
+          <h2 className="text-4xl font-bold text-center text-emerald-800 mb-12">About Pukoret Home Suites</h2>
           <div className="flex flex-col md:flex-row items-center gap-12 mb-12">
             <div className="md:w-1/2">
               <img
@@ -182,13 +182,13 @@ const App = () => {
             </div>
             <div className="md:w-1/2 text-lg leading-relaxed">
               <p className="mb-4">
-                Welcome to Serenity Stays, where two decades of unwavering dedication to hospitality converge with the timeless charm of Kenayan culture. Established with a vision to offer a tranquil sanctuary, our guest house provides a unique blend of traditional warmth and contemporary comfort.
+                Welcome to Pukoret Home Suites, where two decades of unwavering dedication to hospitality converge with the timeless charm of Kenayan culture. Established with a vision to offer a tranquil sanctuary, our guest house provides a unique blend of traditional warmth and contemporary comfort.
               </p>
               <p className="mb-4">
-                Our journey began over 20 years ago, driven by a passion to create memorable experiences for every guest. We believe in personalized service, ensuring that your stay is not just comfortable, but truly enriching. From the moment you step through our doors, you'll be greeted with genuine smiles and an atmosphere designed for relaxation.
+                Our journey began over 20 years ago, driven by a passion to create memorable experiences for every guest. We believe in personalized service, ensuring that your stay is not just comfortable, but truly enriching. From the moment you step through our doors, youll be greeted with genuine smiles and an atmosphere designed for relaxation.
               </p>
               <p>
-                We are committed to maintaining the highest standards of cleanliness, safety, and guest satisfaction. Our team is always on hand to assist with any needs, provide local insights, and ensure your time with us is nothing short of perfect. Discover the difference that heartfelt hospitality makes at Serenity Stays.
+                We are committed to maintaining the highest standards of cleanliness, safety, and guest satisfaction. Our team is always on hand to assist with any needs, provide local insights, and ensure your time with us is nothing short of perfect. Discover the difference that heartfelt hospitality makes at Pukoret Home Suites.
               </p>
             </div>
           </div>
@@ -306,32 +306,33 @@ const App = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2 text-lg leading-relaxed">
               <p className="mb-4">
-                Serenity Stays is conveniently located in a peaceful neighborhood, offering easy access to local attractions, dining, and transportation hubs.
+                Pukoret Home Suites is conveniently located in a peaceful neighborhood, offering easy access to local attractions, dining, and transportation hubs.
               </p>
               <p className="mb-4">
                 Our prime location ensures a quiet stay while keeping you connected to the vibrant pulse of the city. We are just a short drive from major landmarks and business districts.
               </p>
               <p className="font-semibold text-emerald-700">
-                Address: 123 Nairobi Lane, Serenity City, Kenya - 560001
+                Address: 123 Narok Lane, Pukoret Home Suites, Kenya - 560001
               </p>
               <p className="font-semibold text-emerald-700">
                 Phone: +91 98765 43210
               </p>
               <p className="font-semibold text-emerald-700">
-                Email: info@serenitystays.com
+                Email: info@pukorethomesuites.com
               </p>
             </div>
             <div className="md:w-1/2 w-full h-96 rounded-xl shadow-lg overflow-hidden border-4 border-emerald-200">
               {/* Placeholder for Google Map - In a real app, you'd use a Google Maps API component */}
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0000000000005!2d77.594562!3d12.971599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44747%3A0x1d1d8b1d1d8b1d1d!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sus!4v1678888888888!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Guest House Location on Google Map"
-              ></iframe>
+<iframe
+  src="https://www.google.com/maps?q=-1.085917,35.885556&z=15&output=embed"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="Location on Google Map"
+></iframe>
+
             </div>
           </div>
         </div>
@@ -340,7 +341,7 @@ const App = () => {
       {/* Footer */}
       <footer className="bg-stone-800 text-white py-10">
         <div className="container mx-auto px-6 md:px-12 text-center">
-          <p className="mb-4">&copy; {new Date().getFullYear()} Serenity Stays. All rights reserved.</p>
+          <p className="mb-4">&copy; {new Date().getFullYear()} Pukoret Home Suites. All rights reserved.</p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="hover:text-emerald-400 transition duration-300">Privacy Policy</a>
             <a href="#" className="hover:text-emerald-400 transition duration-300">Terms of Service</a>
