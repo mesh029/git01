@@ -312,7 +312,7 @@ const App = () => {
                 Our prime location ensures a quiet stay while keeping you connected to the vibrant pulse of the city. We are just a short drive from major landmarks and business districts.
               </p>
               <p className="font-semibold text-emerald-700">
-               Narok Town, London Area 500m off the Narok - Bomet highway through Basabara Junction, Pukoret Home Suites, Kenya - 560001
+               Narok Town, London Area 500m off the Narok - Bomet highway through Basabara Junction, Pukoret Home Suites, Kenya 
               </p>
               <p className="font-semibold text-emerald-700">
                 Phone: 0759550770 or 0705152747
