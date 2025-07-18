@@ -148,7 +148,7 @@ const App = () => {
       <section
         className="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
         style={{
-          backgroundImage: `url(https://placehold.co/1920x1080/4a5568/ffffff?text=Elegant+Guest+House+Entrance)`,
+          backgroundImage: `url(https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1?text=Elegant+Guest+House+Entrance)`,
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -312,13 +312,12 @@ const App = () => {
                 Our prime location ensures a quiet stay while keeping you connected to the vibrant pulse of the city. We are just a short drive from major landmarks and business districts.
               </p>
               <p className="font-semibold text-emerald-700">
-                Address: 123 Narok Lane, Pukoret Home Suites, Kenya - 560001
+               Narok Town, London Area 500m off the Narok - Bomet highway through Basabara Junction, Pukoret Home Suites, Kenya - 560001
               </p>
               <p className="font-semibold text-emerald-700">
-                Phone: +91 98765 43210
+                Phone: 0759550770 or 0705152747
               </p>
               <p className="font-semibold text-emerald-700">
-                Email: info@pukorethomesuites.com
               </p>
             </div>
             <div className="md:w-1/2 w-full h-96 rounded-xl shadow-lg overflow-hidden border-4 border-emerald-200">
