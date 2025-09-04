@@ -182,14 +182,11 @@ const App = () => {
             </div>
             <div className="md:w-1/2 text-lg leading-relaxed">
               <p className="mb-4">
-                Welcome to Pukoret Home Suites, where two decades of unwavering dedication to hospitality converge with the timeless charm of Kenayan culture. Established with a vision to offer a tranquil sanctuary, our guest house provides a unique blend of traditional warmth and contemporary comfort.
-              </p>
+Welcome to Pukoret Home Suites, where one decade of unwavering dedication to hospitality converge with the timeless charm of Kenyan culture. Established with a vision to offer a tranquil sanctuary, our guest house provides a unique blend of traditional warmth and contemporary comfort.              </p>
               <p className="mb-4">
-                Our journey began over 20 years ago, driven by a passion to create memorable experiences for every guest. We believe in personalized service, ensuring that your stay is not just comfortable, but truly enriching. From the moment you step through our doors, youll be greeted with genuine smiles and an atmosphere designed for relaxation.
-              </p>
+Our journey began over 10 years ago, driven by a passion to create memorable experiences for every guest. We believe in personalized service, ensuring that your stay is not just comfortable, but truly enriching. From the moment you step through our doors, you’ll be greeted with genuine smiles and an atmosphere designed for relaxation.              </p>
               <p>
-                We are committed to maintaining the highest standards of cleanliness, safety, and guest satisfaction. Our team is always on hand to assist with any needs, provide local insights, and ensure your time with us is nothing short of perfect. Discover the difference that heartfelt hospitality makes at Pukoret Home Suites.
-              </p>
+We are committed to maintaining the highest standards of cleanliness, safety, and guest satisfaction. Our team is always on hand to assist with any needs, provide local insights, and ensure your time with us is nothing short of perfect. Discover the difference that heartfelt hospitality makes at Pukoret Home Suites.              </p>
             </div>
           </div>
 
@@ -216,55 +213,34 @@ const App = () => {
           <h2 className="text-4xl font-bold text-center text-emerald-800 mb-12">Our Comfortable Rooms</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Room Card 1 */}
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-              <img
-                src="https://placehold.co/500x300/6ee7b7/3730a3?text=Standard+Room"
-                alt="Standard Room"
-                className="w-full h-56 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-2xl font-semibold text-emerald-700 mb-2">Standard Room</h3>
-                <p className="text-stone-600 mb-4">
-                  Cozy and comfortable, perfect for solo travelers or couples. Equipped with all essential amenities.
-                </p>
-                <ul className="text-stone-700 text-sm mb-4 list-disc list-inside">
-                  <li>Queen-size bed</li>
-                  <li>En-suite bathroom</li>
-                  <li>Air conditioning</li>
-                  <li>Free Wi-Fi</li>
-                </ul>
-                <button
-                  onClick={openBookingModal}
-                  className="bg-emerald-500 text-white px-6 py-3 rounded-full hover:bg-emerald-600 transition duration-300"
-                >
-                  Book Standard
-                </button>
-              </div>
-            </div>
 
             {/* Room Card 2 */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
               <img
                 src="https://placehold.co/500x300/34d399/ffffff?text=Deluxe+Room"
-                alt="Deluxe Room"
+                alt="BnB"
                 className="w-full h-56 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-emerald-700 mb-2">Deluxe Room</h3>
+                <h3 className="text-2xl font-semibold text-emerald-700 mb-2">BnB</h3>
                 <p className="text-stone-600 mb-4">
-                  Spacious and elegant, offering extra comfort and a beautiful view.
+                 Cozy and comfortable, perfect for solo travelers or couples. Equipped with all essential amenities.
                 </p>
                 <ul className="text-stone-700 text-sm mb-4 list-disc list-inside">
-                  <li>King-size bed</li>
+                  <li>Queen-size bed</li>
+                  <li>En-suite bathroom</li>
+                  <li>Free Wi-Fi</li>
                   <li>Private balcony</li>
-                  <li>Mini-fridge</li>
-                  <li>Work desk</li>
+                  <li>Mini-Fridge</li>
+                  <li>Kichenette</li>
+
+
                 </ul>
                 <button
                   onClick={openBookingModal}
                   className="bg-emerald-500 text-white px-6 py-3 rounded-full hover:bg-emerald-600 transition duration-300"
                 >
-                  Book Deluxe
+                  Book BnB
                 </button>
               </div>
             </div>
@@ -273,25 +249,28 @@ const App = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
               <img
                 src="https://placehold.co/500x300/10b981/ffffff?text=Family+Suite"
-                alt="Family Suite"
+                alt="Standard Room"
                 className="w-full h-56 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-emerald-700 mb-2">Family Suite</h3>
                 <p className="text-stone-600 mb-4">
-                  Ideal for families, with ample space and additional sleeping arrangements.
-                </p>
+A well-appointed space designed for comfort and convenience. Ideal for business travelers or vacationers seeking a relaxing stay, it combines modern essentials with a touch of homeliness.                </p>
                 <ul className="text-stone-700 text-sm mb-4 list-disc list-inside">
-                  <li>Two bedrooms</li>
-                  <li>Living area</li>
-                  <li>Kitchenette</li>
-                  <li>Child-friendly amenities</li>
+                  <li>Queen-Size bed</li>
+                  <li>En-suite bathroom</li>
+                  <li>Work desk</li>
+                  <li>Free Wi-Fi</li>
+                  <li>Private balcony</li>
+                  <li>Kichenette</li>
+
+
                 </ul>
                 <button
                   onClick={openBookingModal}
                   className="bg-emerald-500 text-white px-6 py-3 rounded-full hover:bg-emerald-600 transition duration-300"
                 >
-                  Book Family Suite
+                  Book Standard Room
                 </button>
               </div>
             </div>
