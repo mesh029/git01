@@ -218,7 +218,7 @@ We are committed to maintaining the highest standards of cleanliness, safety, an
             {/* Room Card 2 */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
               <img
-                src="https://placehold.co/500x300/34d399/ffffff?text=Deluxe+Room"
+                src="https://placehold.co/500x300/34d399/ffffff?text=BnB"
                 alt="BnB"
                 className="w-full h-56 object-cover"
               />
@@ -249,7 +249,7 @@ We are committed to maintaining the highest standards of cleanliness, safety, an
             {/* Room Card 3 */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
               <img
-                src="https://placehold.co/500x300/10b981/ffffff?text=Family+Suite"
+                src="https://placehold.co/500x300/10b981/ffffff?text=Standard+Room"
                 alt="Standard Room"
                 className="w-full h-56 object-cover"
               />
