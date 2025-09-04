@@ -211,7 +211,8 @@ We are committed to maintaining the highest standards of cleanliness, safety, an
       <section id="rooms" className="py-20 bg-stone-100">
         <div className="container mx-auto px-6 md:px-12">
           <h2 className="text-4xl font-bold text-center text-emerald-800 mb-12">Our Comfortable Rooms</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
             {/* Room Card 1 */}
 
             {/* Room Card 2 */}
@@ -253,7 +254,7 @@ We are committed to maintaining the highest standards of cleanliness, safety, an
                 className="w-full h-56 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-2xl font-semibold text-emerald-700 mb-2">Family Suite</h3>
+                <h3 className="text-2xl font-semibold text-emerald-700 mb-2">Standard Room</h3>
                 <p className="text-stone-600 mb-4">
 A well-appointed space designed for comfort and convenience. Ideal for business travelers or vacationers seeking a relaxing stay, it combines modern essentials with a touch of homeliness.                </p>
                 <ul className="text-stone-700 text-sm mb-4 list-disc list-inside">
